@@ -1,5 +1,6 @@
 ﻿@import url("https://fonts.googleapis.com/css?family=Coda");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Akshar");
 
 
 html, body, div, u, i, a, header, footer {
@@ -51,6 +52,8 @@ body {
 #mid {
     position: relative;
     text-align: center;
+    margin: auto;
+    padding-left: 40px;
 }
 
     #mid h1 {
@@ -71,6 +74,7 @@ body {
 }
 
     #message h3 {
+        font-family: 'Akshar';
         font-size: 64px;
         font-weight: 300;
         margin-bottom: 0;
@@ -86,6 +90,7 @@ body {
         font-family: 'Coda';
         color: #EC008C;
         font-size: 32px;
+        width: 40%;
     }
     
     #message form input[type="submit"] {
@@ -93,9 +98,11 @@ body {
         padding-right: 10px;
         font-size: 24px;
         color: #000000;
+        width: auto;
     }
     
     #message form input[type="submit"]:hover {
+        cursor: pointer;
         background-color: rgb(240, 240, 240);
     }
 
@@ -105,27 +112,26 @@ body {
     top: 0;
     width: 100%;
     height: 10%;
-    align-items: center;
-    justify-content: space-between;
     text-align: center;
 }
     ul.icons {
-        cursor: default;
         color: white;
         list-style: none;
-        justify-content: space-between;
     }
 
         ul.icons li {
-            background-image: url("Rectangle.png");
-            background-repeat: no-repeat;
-            background-position:center;
-            margin: 10px 10px;
-            padding: 30px;
+            margin: 10px 20px;
+            padding: 0px;
             display: inline-block;
         }
 
+
         ul.icons li img {
             margin: auto;
-            height: 34px;
+            height: 70px;
+        }
+
+        ul.icons li img:hover {
+            cursor: pointer;
+            opacity: 70%;
         }
