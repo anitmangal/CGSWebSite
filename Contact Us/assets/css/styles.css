@@ -1,0 +1,114 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Wavehaus");
+
+body {
+    margin: 0px;
+    position: absolute;
+    background-color: #1E1E1E;
+    font-family: Wavehaus;
+    font-style: normal;
+}
+
+.leftPane {
+    display: inline-block;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+
+    .leftPane img {
+        position: relative;
+        max-width: 50%;
+        top: 2%;
+        left: 25%;
+        mix-blend-mode: screen;
+    }
+
+    .leftPane button {
+        position: relative;
+        font-family: 'Wavehaus';
+        font-weight: 700;
+        font-size: 2vw;
+        text-align: center;
+        color: #FFFFFF;
+        width: 30%;
+        background: linear-gradient(90deg, #B60A73 0%, #EC0090 100%);
+        border: none;
+        border-radius: 100px;
+        top: 4%;
+        left: 35%;
+        margin: auto;
+    }
+
+
+.right {
+    display: inline-block;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    right: 0;
+    width: 73.9%;
+    align-items: center;
+    text-align: center;
+}
+    .right h1 {
+        position: relative;
+        font-weight: 700;
+        font-size: 4vw;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 16px #FF009C;
+    }
+
+    .box {
+        position: relative;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+
+        .box h2 {
+            padding-top: 20px;
+            font-weight: 500;
+            font-size: 2.5vw;
+            letter-spacing: 0.2em;
+            color: #FFFFFF;
+        }
+
+        .box .inner {
+            background: linear-gradient(237.36deg, #F62BA7 50.78%, #B60A73 85.97%);
+        }
+
+            .inner .name-box {
+                display: inline-block;
+                background: #B60A73;
+                opacity: 0.4;
+                width: 49.8%;
+            }
+
+            .inner .mail-box {
+                display: inline-block;
+                background: #B60A73;
+                opacity: 0.4;
+                width: 49.8%;
+            }
+
+.sepLine {
+    display: inline-block;
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 0px;
+    left: 25.6%;
+    top: 0px;
+    border: 0.2083vw solid #FCFCFC;
+    box-shadow: 0px 4px 10px #EC0090;
+}
+
+.triangles {
+    position: fixed;
+    margin: 0;
+    bottom: -10%;
+    width: 50%;
+    height: auto;
+}

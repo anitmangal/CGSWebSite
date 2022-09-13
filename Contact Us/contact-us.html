@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <script>
+            function validate(c, def) {
+                if (c.value == '') {
+                    c.value = def;
+                }
+            }
+
+            function focusCheck(c, def) {
+                if (c.value == def) {
+                    c.value = "";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="leftPane">
+            <img src="images/cgs_logo.png" class="logo" />
+            <br />
+            <button>MENU</button>
+        </div>
+        <div class="sepLine"></div>
+        <div class="right">
+            <h1>CONTACT US</h1>
+            <div class="box">
+                <h2>LEAVE A MESSAGE</h2>
+                <div class="inner">
+                    <form autocomplete="on">
+                        <input type="text" name="name" value="Name" onfocus="focusCheck(this, 'Name')" onblur="validate(this, 'Name')" />
+                        <input type="text" name="email" value="Email" onfocus="focusCheck(this, 'Email')" onblur="validate(this, 'Email')" /><br />
+                        <textarea name="message" onfocus="focusCheck(this, 'Message Here')" onblur="validate(this, 'Message Here')" />Message Here</textarea><br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <img class="triangles" src="images/triangles-pinkwhite-cropped.png" />
+    </body>
+</html>
